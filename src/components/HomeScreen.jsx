@@ -1,6 +1,6 @@
 import { Phone, Calendar, Home, FileText, User, Stethoscope, AlertCircle, Pill } from "lucide-react";
 
-export default function HomeScreen({ onBook, onOpenMedical, onOpenProfile, onOpenDoctor }) {
+export default function HomeScreen({ onBook, onOpenMedical, onOpenProfile, onOpenDoctor,onOpenContact}) {
   return (
     <div className="min-h-screen w-full bg-white flex flex-col lg:flex-row">
 
@@ -56,7 +56,7 @@ export default function HomeScreen({ onBook, onOpenMedical, onOpenProfile, onOpe
           {/* Action Buttons */}
           <div className="grid grid-cols-2 gap-4 mb-7">
 
-            <button className="bg-white border border-gray-200 rounded-2xl p-5 lg:p-8 flex flex-col lg:flex-row items-center lg:items-start gap-3 lg:gap-5 active:scale-95 transition-transform text-left hover:border-blue-200 hover:bg-blue-50/30">
+            <button onClick={onOpenContact}className="bg-white border border-gray-200 rounded-2xl p-5 lg:p-8 flex flex-col lg:flex-row items-center lg:items-start gap-3 lg:gap-5 active:scale-95 transition-transform text-left hover:border-blue-200 hover:bg-blue-50/30">
               <div className="w-12 h-12 lg:w-14 lg:h-14 bg-blue-50 rounded-2xl flex items-center justify-center shrink-0">
                 <Phone className="w-5 h-5 lg:w-6 lg:h-6 text-blue-600" />
               </div>

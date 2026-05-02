@@ -7,6 +7,7 @@ import CreateAccount from "./components/CreateAccount";
 import MedicalRecord from "./components/MedicalRecord";
 import ProfilePage from "./components/ProfilePage";
 import DoctorProfile from "./components/DoctorProfile";
+import ContactPage from "./components/ContactPage";
 
 export default function App() {
   const [page, setPage] = useState("splash");
@@ -49,7 +50,9 @@ export default function App() {
   onBook={() => setPage("appointment")}
   onOpenMedical={() => setPage("medical")}
   onOpenProfile={() => setPage("profile")}
-  onOpenDoctor={() => setPage("doctor")}   
+  onOpenDoctor={() => setPage("doctor")}
+  onOpenContact={() => setPage("contact")}
+    
 />
       )}
 
@@ -59,6 +62,9 @@ export default function App() {
           onBack={() => setPage("home")}
           onConfirm={() => setPage("home")}
         />
+      )}
+      {page === "contact" && (
+        <ContactPage onBack={() => setPage("home")} />
       )}
 
       {/* MEDICAL RECORD */}
