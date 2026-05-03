@@ -63,12 +63,12 @@ export default function DoctorProfile({ onBack }) {
             {/* Biography */}
             <div className="bg-white rounded-2xl p-4 border border-slate-200">
               <h3 className="text-sm font-semibold text-slate-700 mb-2">Biography</h3>
-              <p className="text-sm text-slate-500 leading-relaxed">
-               Dr. Youssef EL-Amrani est médecin généraliste diplômé de la <span className="font-medium text-slate-700">FMPC-Faculté de Médecine et de Pharmacie de Casablanca</span>, 
-    où il a obtenu son diplôme de Docteur en Médecine Générale avec mention. 
-    Fort de plus de <span className="font-medium text-slate-700">10 ans d'expérience clinique</span>, 
-    il exerce avec une approche centrée sur le patient, privilegiant l'écoute, la prévention et le suivi personnalisé. 
-    Il est reconnu pour sa disponibilité, sa rigueur diagnostique et son engagement envers la santé communautaire à Casablanca.
+             <p className="text-sm text-slate-500 leading-relaxed">
+               Dr. Youssef EL-Amrani is a general practitioner graduated from the <span className="font-medium text-slate-700">FMPC-Faculty of Medicine and Pharmacy of Casablanca</span>, 
+    where he obtained his Doctor of General Medicine degree with honors. 
+    With over <span className="font-medium text-slate-700">10 years of clinical experience</span>, 
+    he practices with a patient-centered approach, prioritizing listening, prevention and personalized follow-up. 
+    He is recognized for his availability, diagnostic rigor and commitment to community health in Casablanca.
               </p>
             </div>
 
@@ -82,13 +82,13 @@ export default function DoctorProfile({ onBack }) {
               <h3 className="text-sm font-semibold text-slate-700 mb-4">Education</h3>
               <div className="flex flex-col gap-4">
                 {[
-                  { icon: GraduationCap, title: 'Doctorat en Médecine Générale',       sub: 'Faculté de Médecine et de Pharmacie de Casablanca', color: 'text-blue-600',   bg: 'bg-blue-50'   },
-                  { icon: Stethoscope,   title: 'Internat & Résidence',        sub: 'CHU Ibn Rochd, Casablanca', color: 'text-green-600',  bg: 'bg-green-50'  },
-                  { icon: ShieldCheck,   title: 'Certification en Médecine d\'Urgence',  sub: 'Ministère de la Santé — Maroc',        color: 'text-purple-600', bg: 'bg-purple-50' },
+                  { icon: GraduationCap, title: 'Doctorate in General Medicine',       sub: 'Faculty of Medicine and Pharmacy of Casablanca', color: 'text-blue-600',   bg: 'bg-blue-50'   },
+                  { icon: Stethoscope,   title: 'Internship & Residency',        sub: 'CHU Ibn Rochd, Casablanca', color: 'text-green-600',  bg: 'bg-green-50'  },
+                  { icon: ShieldCheck,   title: 'Certification in Emergency Medicine',  sub: 'Ministry of Health — Morocco',        color: 'text-purple-600', bg: 'bg-purple-50' },
                   {
         icon: Award,
-        title: 'Formation en Diabétologie & Nutrition',
-        sub: 'Institut National de Nutrition, Rabat',
+        title: 'Training in Diabetology & Nutrition',
+        sub: 'National Institute of Nutrition, Rabat',
         color: 'text-amber-600',
         bg: 'bg-amber-50'
       },

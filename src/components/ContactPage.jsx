@@ -19,7 +19,7 @@ export default function ContactPage({ onBack }) {
 
           <div>
             <h1 className="text-2xl md:text-3xl font-bold text-slate-900">
-              Contact & Support
+              Contact & Emergency
             </h1>
             <p className="text-sm text-slate-500">
               We are here to help you anytime
@@ -56,7 +56,7 @@ export default function ContactPage({ onBack }) {
             </p>
 
             <p className="text-sm text-slate-500">
-              Medical Center, Fes, Morocco
+              Cabinet Maarif, Casablanca , Morocco
             </p>
 
           </div>
@@ -74,7 +74,7 @@ export default function ContactPage({ onBack }) {
             </p>
 
             <p className="text-sm text-red-500 font-medium">
-              Sunday: Closed (Dimanche fermé)
+              Sunday: Closed 
             </p>
 
           </div>

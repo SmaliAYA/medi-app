@@ -33,7 +33,7 @@ export default function HomeScreen({ onBook, onOpenMedical, onOpenProfile, onOpe
         {/* Header */}
         <div className="px-4 md:px-8 lg:px-12 pt-6 pb-4">
           <h1 className="text-2xl lg:text-3xl text-gray-900 mb-1">Hello!</h1>
-          <p className="text-lg text-gray-500">Aya Smali</p>
+          <p className="text-lg text-gray-500">Sara Idrissi</p>
         </div>
 
         {/* Scrollable Content */}
@@ -42,7 +42,7 @@ export default function HomeScreen({ onBook, onOpenMedical, onOpenProfile, onOpe
           {/* Next Appointment — plus grand et enrichi sur desktop */}
           <div className="mb-5 bg-blue-600 rounded-2xl p-5 lg:p-8 flex flex-col lg:flex-row lg:items-center lg:justify-between">
             <div>
-              <p className="text-blue-200 text-sm mb-1">Next Rendez-vous</p>
+              <p className="text-blue-200 text-sm mb-1">Next Appointment</p>
               <p className="text-white text-base lg:text-xl font-medium">Dr. Youssef EL-Amrani</p>
               <p className="text-blue-100 text-sm mt-1">Monday 14 Avril, 14:30</p>
             </div>
