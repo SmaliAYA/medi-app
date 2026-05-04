@@ -8,8 +8,8 @@ export default function ProfilePage({ onBack }) {
   const [notifications, setNotifications] = useState(true);
   const [twoFA, setTwoFA] = useState(false);
   const [language, setLanguage] = useState("en");
-  const [fullName, setFullName] = useState("Aya Smali");
-  const [email, setEmail] = useState("aya.smali@email.com");
+  const [fullName, setFullName] = useState("Sara idrissi");
+  const [email, setEmail] = useState("sara.idrissi@email.com");
   const [phone, setPhone] = useState("+212 600 000 000");
   const [editField, setEditField] = useState(null);
   const [saved, setSaved] = useState(false);
