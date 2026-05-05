@@ -53,7 +53,6 @@ export default function CreateAccount({ onSignUp, onGoToLogin }) {
             <option>Gender</option>
             <option>Male</option>
             <option>Female</option>
-            <option>Other</option>
           </select>
 
           <input
