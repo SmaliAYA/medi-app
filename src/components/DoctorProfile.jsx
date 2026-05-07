@@ -1,6 +1,6 @@
 import { Star, Users, Award, GraduationCap, ShieldCheck, Stethoscope, ArrowLeft } from 'lucide-react';
 
-export default function DoctorProfile({ onBack }) {
+export default function DoctorProfile({ onBack, onOpenAppointment }) {
   return (
     <div className="min-h-screen w-full bg-slate-50 flex flex-col font-sans">
 
@@ -107,7 +107,8 @@ export default function DoctorProfile({ onBack }) {
 </div>
 
             {/* ✅ Bouton Book */}
-            <button className="w-full bg-blue-600 hover:bg-blue-700 active:scale-95 transition text-white py-4 rounded-2xl text-sm font-semibold">
+            <button onClick={onOpenAppointment}
+             className="w-full bg-blue-600 hover:bg-blue-700 active:scale-95 transition text-white py-4 rounded-2xl text-sm font-semibold">
               Book Appointment
             </button>
 

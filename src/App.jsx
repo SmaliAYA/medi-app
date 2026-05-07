@@ -76,8 +76,10 @@ export default function App() {
   <ProfilePage onBack={() => setPage("home")} />
 )}
 {page === "doctor" && (
-  <DoctorProfile onBack={() => setPage("home")} />
+  <DoctorProfile onBack={() => setPage("home")}
+   onOpenAppointment={() => setPage("appointment")} />
 )}
+
     </>
   );
 }
